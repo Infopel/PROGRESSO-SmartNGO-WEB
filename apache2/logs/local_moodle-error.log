@@ -1,0 +1,64 @@
+[Fri Feb 01 15:25:36.708975 2019] [authz_core:error] [pid 5336:tid 1228] [client ::1:49317] AH01630: client denied by server configuration: C:/inetpub/wwwroot/Moodle/
+[Fri Feb 01 15:25:36.829632 2019] [authz_core:error] [pid 5336:tid 1228] [client ::1:49317] AH01630: client denied by server configuration: C:/inetpub/wwwroot/Moodle/favicon.ico, referer: http://localhost:8090/
+[Fri Feb 01 15:25:41.807798 2019] [authz_core:error] [pid 5336:tid 1228] [client ::1:49317] AH01630: client denied by server configuration: C:/inetpub/wwwroot/Moodle/
+[Fri Feb 01 15:25:41.908239 2019] [authz_core:error] [pid 5336:tid 1228] [client ::1:49317] AH01630: client denied by server configuration: C:/inetpub/wwwroot/Moodle/favicon.ico, referer: http://localhost:8090/
+[Fri Feb 01 15:26:00.230309 2019] [authz_core:error] [pid 5336:tid 1204] [client ::1:49323] AH01630: client denied by server configuration: C:/inetpub/wwwroot/Moodle/index.php
+[Fri Feb 01 15:26:00.308567 2019] [authz_core:error] [pid 5336:tid 1204] [client ::1:49323] AH01630: client denied by server configuration: C:/inetpub/wwwroot/Moodle/favicon.ico, referer: http://localhost:8090/index.php
+[Sun Feb 03 02:20:40.359952 2019] [cgi:error] [pid 5780:tid 1204] [client 77.81.234.19:49676] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php
+[Sun Feb 03 02:20:40.516220 2019] [cgi:error] [pid 5780:tid 1204] [client 77.81.234.19:49907] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php5
+[Sun Feb 03 02:20:45.266182 2019] [php7:error] [pid 5780:tid 1204] [client 77.81.234.19:57227] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Mon Feb 11 16:03:00.624012 2019] [cgi:error] [pid 5780:tid 1204] [client 77.81.234.19:42376] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php
+[Mon Feb 11 16:03:00.795838 2019] [cgi:error] [pid 5780:tid 1204] [client 77.81.234.19:42759] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php5
+[Mon Feb 11 16:03:05.967683 2019] [php7:error] [pid 5780:tid 1204] [client 77.81.234.19:51040] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sun Mar 24 22:28:58.666777 2019] [core:error] [pid 2232:tid 1044] (20024)The given path is misformatted or contained invalid characters: [client 5.189.137.116:60397] AH00127: Cannot map PUT /FxCodeShell.jsp::$DATA HTTP/1.1 to file, referer: http://5.189.162.27:8090/FxCodeShell.jsp::$DATA
+[Wed Apr 10 23:57:44.991042 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:30848] script 'C:/inetpub/wwwroot/Moodle/myipha.php' not found or unable to stat
+[Wed Apr 10 23:57:50.662869 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:45266] script 'C:/inetpub/wwwroot/Moodle/myiphd.php' not found or unable to stat
+[Wed Apr 10 23:57:56.365937 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:59748] script 'C:/inetpub/wwwroot/Moodle/myipha.php' not found or unable to stat
+[Wed Apr 10 23:58:01.975307 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:24856] script 'C:/inetpub/wwwroot/Moodle/myiphc.php' not found or unable to stat
+[Thu Apr 11 00:17:06.821795 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:24536] script 'C:/inetpub/wwwroot/Moodle/myiphd.php' not found or unable to stat
+[Thu Apr 11 00:17:12.490870 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:37290] script 'C:/inetpub/wwwroot/Moodle/myiphd.php' not found or unable to stat
+[Thu Apr 11 00:17:18.162735 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:50924] script 'C:/inetpub/wwwroot/Moodle/myiphb.php' not found or unable to stat
+[Thu Apr 11 00:17:23.803321 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:63090] script 'C:/inetpub/wwwroot/Moodle/myiphb.php' not found or unable to stat
+[Thu Apr 11 00:56:51.193562 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:19820] script 'C:/inetpub/wwwroot/Moodle/myipha.php' not found or unable to stat
+[Thu Apr 11 00:56:56.896636 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:33968] script 'C:/inetpub/wwwroot/Moodle/myiphb.php' not found or unable to stat
+[Thu Apr 11 00:57:02.568788 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:48306] script 'C:/inetpub/wwwroot/Moodle/myipha.php' not found or unable to stat
+[Thu Apr 11 00:57:08.196628 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:63060] script 'C:/inetpub/wwwroot/Moodle/myiphb.php' not found or unable to stat
+[Thu Apr 11 01:34:48.460117 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:29598] script 'C:/inetpub/wwwroot/Moodle/myipha.php' not found or unable to stat
+[Thu Apr 11 01:34:54.147163 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:44512] script 'C:/inetpub/wwwroot/Moodle/myiphb.php' not found or unable to stat
+[Thu Apr 11 01:34:59.834651 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:59832] script 'C:/inetpub/wwwroot/Moodle/myiphd.php' not found or unable to stat
+[Thu Apr 11 01:35:05.459636 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:26096] script 'C:/inetpub/wwwroot/Moodle/myiphb.php' not found or unable to stat
+[Thu Apr 11 19:01:54.210204 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:48508] script 'C:/inetpub/wwwroot/Moodle/myiphd.php' not found or unable to stat
+[Thu Apr 11 19:01:59.905799 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:60304] script 'C:/inetpub/wwwroot/Moodle/myiphb.php' not found or unable to stat
+[Thu Apr 11 19:02:05.577618 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:22222] script 'C:/inetpub/wwwroot/Moodle/myipha.php' not found or unable to stat
+[Thu Apr 11 19:02:11.186974 2019] [php7:error] [pid 2232:tid 1044] [client 37.26.143.33:33224] script 'C:/inetpub/wwwroot/Moodle/myiphb.php' not found or unable to stat
+[Sat Apr 20 14:11:31.740574 2019] [php7:error] [pid 2232:tid 1044] [client 198.50.215.26:58174] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sat Apr 20 14:11:31.959362 2019] [php7:error] [pid 2232:tid 1044] [client 198.50.215.26:58434] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sat Apr 20 14:11:46.007065 2019] [php7:error] [pid 2232:tid 1220] [client 198.50.215.26:47546] script 'C:/inetpub/wwwroot/Moodle/main.php' not found or unable to stat
+[Sat Apr 20 14:17:27.975635 2019] [php7:error] [pid 2232:tid 1220] [client 162.243.34.146:44770] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sat Apr 20 14:17:28.178820 2019] [php7:error] [pid 2232:tid 1220] [client 162.243.34.146:44797] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sat Apr 20 14:18:20.131605 2019] [php7:error] [pid 2232:tid 1220] [client 162.243.34.146:59151] script 'C:/inetpub/wwwroot/Moodle/main.php' not found or unable to stat
+[Sat Apr 20 16:01:30.928881 2019] [php7:error] [pid 2232:tid 1044] [client 165.227.60.40:37828] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sat Apr 20 16:01:31.257031 2019] [php7:error] [pid 2232:tid 1044] [client 165.227.60.40:38520] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sat Apr 20 16:02:09.709782 2019] [php7:error] [pid 2232:tid 1220] [client 165.227.60.40:32854] script 'C:/inetpub/wwwroot/Moodle/main.php' not found or unable to stat
+[Tue Apr 23 14:29:02.772599 2019] [php7:error] [pid 2232:tid 1044] [client 198.50.215.26:47786] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Tue Apr 23 14:29:03.006918 2019] [php7:error] [pid 2232:tid 1044] [client 198.50.215.26:47982] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Tue Apr 23 14:29:14.475628 2019] [php7:error] [pid 2232:tid 1044] [client 198.50.215.26:57778] script 'C:/inetpub/wwwroot/Moodle/main.php' not found or unable to stat
+[Sat Apr 27 19:02:23.267897 2019] [cgi:error] [pid 2260:tid 1204] [client 138.197.64.28:52326] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php
+[Sat Apr 27 19:02:23.564800 2019] [cgi:error] [pid 2260:tid 1204] [client 138.197.64.28:52792] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php5
+[Sat Apr 27 19:02:31.033501 2019] [php7:error] [pid 2260:tid 1204] [client 138.197.64.28:36402] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Mon Apr 29 19:50:14.687847 2019] [cgi:error] [pid 2260:tid 1204] [client 138.197.64.28:58550] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php
+[Mon Apr 29 19:50:14.984725 2019] [cgi:error] [pid 2260:tid 1204] [client 138.197.64.28:59000] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php5
+[Mon Apr 29 19:50:19.859728 2019] [php7:error] [pid 2260:tid 1204] [client 138.197.64.28:38396] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sat May 25 18:26:36.684689 2019] [cgi:error] [pid 2260:tid 1196] [client 45.55.182.23:46263] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php
+[Sat May 25 18:26:36.887758 2019] [cgi:error] [pid 2260:tid 1196] [client 45.55.182.23:46353] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php5
+[Sat May 25 18:26:41.012789 2019] [php7:error] [pid 2260:tid 1196] [client 45.55.182.23:48132] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Sat Jun 15 13:56:45.065715 2019] [core:error] [pid 2260:tid 1204] (20024)The given path is misformatted or contained invalid characters: [client 178.218.25.223:3750] AH00127: Cannot map PUT /FxCodeShell.jsp::$DATA HTTP/1.1 to file, referer: http://5.189.162.27:8090/FxCodeShell.jsp::$DATA
+[Sat Jul 13 14:24:57.519970 2019] [cgi:error] [pid 3104:tid 1044] [client 118.25.210.125:52087] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php
+[Sat Jul 13 14:25:00.598106 2019] [cgi:error] [pid 3104:tid 1044] [client 118.25.210.125:52372] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php5
+[Sat Jul 13 14:25:57.269641 2019] [php7:error] [pid 3104:tid 1044] [client 118.25.210.125:59661] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Thu Aug 15 17:19:59.268408 2019] [cgi:error] [pid 6832:tid 1220] [client 94.23.217.193:60114] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php
+[Thu Aug 15 17:19:59.330898 2019] [cgi:error] [pid 6832:tid 1220] [client 94.23.217.193:60262] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php5
+[Thu Aug 15 17:20:01.315299 2019] [php7:error] [pid 6832:tid 1220] [client 94.23.217.193:35491] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat
+[Thu Aug 22 03:20:16.396389 2019] [cgi:error] [pid 6832:tid 1044] [client 94.23.217.193:33057] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php
+[Thu Aug 22 03:20:16.443276 2019] [cgi:error] [pid 6832:tid 1044] [client 94.23.217.193:35632] AH02811: script not found or unable to stat: C:/Bitnami/progresso2/apache2/cgi-bin/php5
+[Thu Aug 22 03:20:38.521272 2019] [php7:error] [pid 6832:tid 1044] [client 94.23.217.193:48289] script 'C:/inetpub/wwwroot/Moodle/wp-login.php' not found or unable to stat

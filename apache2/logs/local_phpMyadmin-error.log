@@ -1,0 +1,9 @@
+[Fri Feb 01 15:23:07.433702 2019] [authz_core:error] [pid 4800:tid 1212] [client ::1:49305] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/
+[Fri Feb 01 15:23:16.386655 2019] [authz_core:error] [pid 4800:tid 1220] [client ::1:49304] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/
+[Fri Feb 01 15:23:16.461803 2019] [authz_core:error] [pid 4800:tid 1220] [client ::1:49304] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/favicon.ico, referer: http://localhost:3003/
+[Fri Feb 01 15:23:28.963688 2019] [authz_core:error] [pid 4800:tid 1228] [client ::1:49309] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/
+[Fri Feb 01 15:23:29.470515 2019] [authz_core:error] [pid 4800:tid 1228] [client ::1:49309] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/favicon.ico, referer: http://localhost:3003/
+[Fri Feb 01 15:23:31.827951 2019] [authz_core:error] [pid 4800:tid 1228] [client ::1:49309] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/
+[Fri Feb 01 15:23:31.914825 2019] [authz_core:error] [pid 4800:tid 1228] [client ::1:49309] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/favicon.ico, referer: http://localhost:3003/
+[Fri Feb 01 15:23:37.107240 2019] [authz_core:error] [pid 4800:tid 1228] [client ::1:49309] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/
+[Fri Feb 01 15:23:37.175557 2019] [authz_core:error] [pid 4800:tid 1228] [client ::1:49309] AH01630: client denied by server configuration: C:/inetpub/wwwroot/phpMyAdmin/favicon.ico, referer: http://localhost:3003/

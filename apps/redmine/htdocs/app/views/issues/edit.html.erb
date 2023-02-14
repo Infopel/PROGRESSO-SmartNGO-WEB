@@ -1,0 +1,11 @@
+<h2><%= "#{@issue.tracker_was} ##{@issue.id}" %></h2>
+
+<%= render :partial => 'edit' %>
+<% content_for :header_tags do %>
+    <%= robot_exclusion_tag %>
+<% end %>
+
+<script type="text/javascript">
+	let tabular = document.getElementsByClassName("tabular");
+	tabular[1].style.display = "none";
+</script>

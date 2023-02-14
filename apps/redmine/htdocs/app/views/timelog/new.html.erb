@@ -1,0 +1,11 @@
+<h2><%= l(:label_spent_time) %></h2>
+
+<div style="display:none">
+<%= labelled_form_for @time_entry, :url => time_entries_path, :html => {:multipart => true} do |f| %>
+  <%= render :partial => 'form', :locals => {:f => f} %>
+  <%= submit_tag l(:button_create) %>
+  <%= submit_tag l(:button_create_and_continue), :name => 'continue' %>
+<% end %>
+</div>
+
+<iframe id="iframe-timentries" style="border:0px !important" sandbox="allow-same-origin allow-scripts allow-popups allow-forms allow-modals" src="http://5.189.162.27:84/report/smp_timeentrys.php" width="100%" height="800px"></iframe>

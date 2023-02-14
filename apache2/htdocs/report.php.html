@@ -1,0 +1,80 @@
+﻿<?php
+$servername = "127.0.0.1:3308";$username = "root";
+$password = "Eureka001";
+$db="bitnami_redmine";
+$proj_id = $_GET['p'];
+$conn = new mysqli($servername, $username, $password,$db);
+
+if ($conn->connect_error) {
+    die("Connection failed: " . $conn->connect_error);
+} 
+//echo "Connected successfully<br/>";
+
+	
+	$sql = "SELECT i.subject AS subject, t.name AS name, ind.subject AS indicador from issues AS i
+	INNER JOIN trackers AS t ON (i.tracker_id = t.id) INNER JOIN issues AS ind ON (i.tracker_id = 12)  WHERE i.tracker_id <> 12 AND i.project_id='".$proj_id."' Order by i.tracker_id DESC";
+
+    $results=mysqli_query($conn, $sql);
+	
+	
+	//while($row=mysqli_fetch_assoc($results)){
+		
+		//var_dump($row);
+	//}
+	$num=count(($results));
+	//echo $num;
+  ?>
+
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<!DOCTYPE HTML PUBLIC "//-w3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html5/strict/.dtd">
+
+<html>
+<head>
+<title>Relatórios</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+crossorigin="anonymous"></script>
+</head>
+<body>
+<h2> Projecto -> 
+  <h3>Relatorio de Indicadores / Metas</h3>
+  <br/>
+<table border="1">
+  <thead>
+		<tr>
+					<th>Tipo de Cadastro<th>
+					<th>Designacao<th>
+					<th>Indicador<th>
+					<th>Variavel<th>
+					<th>Meta(numerica)<th>
+					<th>Meta(descritiva)<th>
+					<th>Realizado<th>
+					<th>Percentual<th>
+					<th>Fonte de verificacao<th>
+					<th>Observacoes<th>
+		</tr>
+	</thead>
+<?php
+while($row=mysqli_fetch_assoc($results)){
+?>
+<tr>
+  <td><?= ($row['name'])?></td>
+  <td><?= ($row['subject'])?></td>
+  <td><?= ($row['indicador'])?></td>
+  <td>a</td>
+  <td>a</td>
+  <td>a</td>
+  <td>a</td>
+  <td>a</td>
+  <td>a</td>
+  <td>a</td>
+</tr>
+<?php
+
+}
+?>
+</table>
+</body>
+</html>
